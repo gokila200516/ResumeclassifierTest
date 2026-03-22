@@ -271,8 +271,7 @@ with open("label_encoder.pkl", "wb") as f:
 
 !pip install streamlit pyngrok
 
-!pip install pyngrok -q
-!ngrok authtoken 31NizgRhHEfo11qNBfPk8oxLmYU_6MFKXFkZu7e5MTpQ3gpMk
+
 
 !streamlit run app.py
 from pyngrok import ngrok
