@@ -261,7 +261,6 @@ with open("tfidf_vectorizer.pkl", "wb") as f:
 with open("label_encoder.pkl", "wb") as f:
     pickle.dump(label_encoder, f)
 
-!pip install streamlit
 
 
 
